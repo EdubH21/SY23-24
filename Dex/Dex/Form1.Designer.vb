@@ -75,7 +75,7 @@ Partial Class Form1
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(180, 142)
+        Me.Label1.Location = New System.Drawing.Point(37, 137)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(49, 20)
         Me.Label1.TabIndex = 1
@@ -84,7 +84,7 @@ Partial Class Form1
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(180, 181)
+        Me.Label2.Location = New System.Drawing.Point(37, 176)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(61, 20)
         Me.Label2.TabIndex = 2
@@ -93,7 +93,7 @@ Partial Class Form1
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(180, 220)
+        Me.Label3.Location = New System.Drawing.Point(37, 215)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(0, 20)
         Me.Label3.TabIndex = 3
@@ -101,7 +101,7 @@ Partial Class Form1
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(180, 259)
+        Me.Label4.Location = New System.Drawing.Point(37, 254)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(36, 20)
         Me.Label4.TabIndex = 4
@@ -110,7 +110,7 @@ Partial Class Form1
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(180, 298)
+        Me.Label5.Location = New System.Drawing.Point(37, 293)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(56, 20)
         Me.Label5.TabIndex = 5
@@ -118,35 +118,35 @@ Partial Class Form1
         '
         'Field1
         '
-        Me.Field1.Location = New System.Drawing.Point(251, 139)
+        Me.Field1.Location = New System.Drawing.Point(108, 134)
         Me.Field1.Name = "Field1"
         Me.Field1.Size = New System.Drawing.Size(125, 27)
         Me.Field1.TabIndex = 6
         '
         'Field2
         '
-        Me.Field2.Location = New System.Drawing.Point(251, 178)
+        Me.Field2.Location = New System.Drawing.Point(108, 173)
         Me.Field2.Name = "Field2"
         Me.Field2.Size = New System.Drawing.Size(125, 27)
         Me.Field2.TabIndex = 7
         '
         'Field3
         '
-        Me.Field3.Location = New System.Drawing.Point(251, 217)
+        Me.Field3.Location = New System.Drawing.Point(108, 212)
         Me.Field3.Name = "Field3"
         Me.Field3.Size = New System.Drawing.Size(125, 27)
         Me.Field3.TabIndex = 8
         '
         'Field4
         '
-        Me.Field4.Location = New System.Drawing.Point(251, 256)
+        Me.Field4.Location = New System.Drawing.Point(108, 251)
         Me.Field4.Name = "Field4"
         Me.Field4.Size = New System.Drawing.Size(125, 27)
         Me.Field4.TabIndex = 9
         '
         'Field5
         '
-        Me.Field5.Location = New System.Drawing.Point(251, 295)
+        Me.Field5.Location = New System.Drawing.Point(108, 290)
         Me.Field5.Name = "Field5"
         Me.Field5.Size = New System.Drawing.Size(125, 27)
         Me.Field5.TabIndex = 10
@@ -154,16 +154,17 @@ Partial Class Form1
         'PictureBox1
         '
         Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBox1.Location = New System.Drawing.Point(460, 115)
+        Me.PictureBox1.Location = New System.Drawing.Point(265, 115)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(160, 220)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
         Me.PictureBox1.TabIndex = 11
         Me.PictureBox1.TabStop = False
         '
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(180, 220)
+        Me.Label6.Location = New System.Drawing.Point(37, 215)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(63, 20)
         Me.Label6.TabIndex = 12

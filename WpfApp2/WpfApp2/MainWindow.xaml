@@ -1,0 +1,28 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Email:" Margin="172,103,587,306"/>
+        <Label Content="Phone:" Margin="172,133,582,276"/>
+        <Label Content="Name on Card:" Margin="172,163,535,246"/>
+        <Label Content="Card Number:" Margin="172,193,544,216"/>
+        <Label Content="Exp Date:" Margin="172,223,568,186"/>
+        <Label Content="Security Code:" Margin="172,251,542,158"/>
+        <Label Content="Zip Code:" Margin="172,283,568,126"/>
+        <TextBox x:Name="EmailTB" TextWrapping="Wrap" Text="TextBox" Width="120" Margin="218,105,462,308"/>
+        <TextBox x:Name="PhoneTB" TextWrapping="Wrap" Text="TextBox" Width="120" Margin="223,137,457,276"/>
+        <TextBox x:Name="NameTB" TextWrapping="Wrap" Text="TextBox" Width="120" Margin="270,165,410,248"/>
+        <TextBox x:Name="NumTB" TextWrapping="Wrap" Text="TextBox" Width="120" Margin="261,196,419,217"/>
+        <TextBox x:Name="DateTB" TextWrapping="Wrap" Text="TextBox" Width="120" Margin="237,225,443,188"/>
+        <TextBox x:Name="CodeTB" TextWrapping="Wrap" Text="TextBox" Width="120" Margin="263,253,417,160"/>
+        <TextBox x:Name="ZipTB" TextWrapping="Wrap" Text="TextBox" Width="120" Margin="237,285,443,128"/>
+        <Button x:Name="PayB" Content="Pay" Margin="172,324,584,86"/>
+        <Button x:Name="Clear" Content="Clear" Margin="234,324,522,86"/>
+
+    </Grid>
+</Window>

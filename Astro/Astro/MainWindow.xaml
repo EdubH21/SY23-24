@@ -1,0 +1,27 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Astro"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="Button" Content="Generate" HorizontalAlignment="Left" Margin="215,53,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Label1" Content="" HorizontalAlignment="Left" Margin="215,13,0,0" VerticalAlignment="Top"/>
+        <Calendar x:Name="Cal1" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Image x:Name="AriesPB" Height="100" Width="100" Margin="217,80,483,254" Source="/Aries1.PNG" Visibility="Hidden"/>
+        <Image x:Name="AquariusPB" Height="100" Width="100" Margin="217,80,483,254" Source="/Aquarius1.PNG" Visibility="Hidden"/>
+        <Image x:Name="CancerPB" Height="100" Width="100" Margin="217,80,483,254" Source="/Cancer1.PNG" Visibility="Hidden"/>
+        <Image x:Name="CapricornPB" Height="100" Width="100" Margin="217,80,483,254" Source="/Capricorn1.PNG" Visibility="Hidden"/>
+        <Image x:Name="GeminiPB" Height="100" Width="100" Margin="217,80,483,254" Source="/Gemini1.PNG" Visibility="Hidden"/>
+        <Image x:Name="LeoPB" Height="100" Width="100" Margin="217,80,483,254" Source="/Leo1.PNG" Visibility="Hidden"/>
+        <Image x:Name="LibraPB" Height="100" Width="100" Margin="217,80,483,254" Source="/Libra1.PNG" Visibility="Hidden"/>
+        <Image x:Name="PiscesPB" Height="100" Width="100" Margin="217,80,483,254" Source="/Pisces1.PNG" Visibility="Hidden"/>
+        <Image x:Name="SagittariusPB" Height="100" Width="100" Margin="217,80,483,254" Source="/Sagittarius1.PNG" Visibility="Hidden"/>
+        <Image x:Name="ScorpioPB" Height="100" Width="100" Margin="217,80,483,254" Source="/Scorpio1.PNG" Visibility="Hidden"/>
+        <Image x:Name="TaurusPB" Height="100" Width="100" Margin="217,80,483,254" Source="/Taurus1.PNG" Visibility="Hidden"/>
+        <Image x:Name="VirgoPB" Height="100" Width="100" Margin="217,80,483,254" Source="/Virgo1.PNG" Visibility="Hidden"/>
+
+    </Grid>
+</Window>

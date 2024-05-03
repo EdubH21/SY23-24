@@ -17,17 +17,18 @@
         <Rectangle x:Name="ColorRectangle5" HorizontalAlignment="Left" Height="46" Margin="59,227,0,0" Stroke="Black" VerticalAlignment="Top" Width="46"/>
         <Rectangle x:Name="ColorRectangle4" HorizontalAlignment="Left" Height="46" Margin="10,227,0,0" Stroke="Black" VerticalAlignment="Top" Width="46"/>
         <Rectangle x:Name="ColorRectangle3" HorizontalAlignment="Left" Height="45" Margin="59,178,0,0" Stroke="Black" VerticalAlignment="Top" Width="46"/>
-        <Slider HorizontalAlignment="Left" Margin="9,361,0,0" VerticalAlignment="Top" Width="120"/>
-        <Slider HorizontalAlignment="Left" Margin="9,343,0,0" VerticalAlignment="Top" Width="120"/>
-        <Slider HorizontalAlignment="Left" Margin="9,379,0,0" VerticalAlignment="Top" Width="120"/>
-        <Slider HorizontalAlignment="Left" Margin="10,151,0,0" VerticalAlignment="Top" Width="120"/>
-        <Rectangle x:Name="ColorRectangle4_Copy" HorizontalAlignment="Left" Height="46" Margin="59,287,0,0" Stroke="Black" VerticalAlignment="Top" Width="46"/>
-        <Rectangle x:Name="ColorRectangle4_Copy1" HorizontalAlignment="Left" Height="46" Margin="10,287,0,0" Stroke="Black" VerticalAlignment="Top" Width="46"/>
-        <Button Content="Save" HorizontalAlignment="Left" Margin="115,10,0,0" VerticalAlignment="Top"/>
-        <Button Content="Elipse" HorizontalAlignment="Left" Margin="115,85,0,0" VerticalAlignment="Top"/>
-        <Button Content="Rectangle" HorizontalAlignment="Left" Margin="115,60,0,0" VerticalAlignment="Top"/>
-        <Button Content="Undo" HorizontalAlignment="Left" Margin="115,35,0,0" VerticalAlignment="Top"/>
-        <Button Content="Clear" HorizontalAlignment="Left" Margin="149,10,0,0" VerticalAlignment="Top"/>
+        <Slider x:Name="G" HorizontalAlignment="Left" Margin="9,361,0,0" VerticalAlignment="Top" Width="120" Maximum="255"/>
+        <Slider x:Name="R" HorizontalAlignment="Left" Margin="9,343,0,0" VerticalAlignment="Top" Width="120" Maximum="255"/>
+        <Slider x:Name="B" HorizontalAlignment="Left" Margin="9,379,0,0" VerticalAlignment="Top" Width="120" Maximum="255"/>
+        <Slider x:Name="AngleSlider" HorizontalAlignment="Left" Margin="10,151,0,0" VerticalAlignment="Top" Width="120" Minimum="-360" Maximum="362"/>
+        <Rectangle x:Name="Color2" HorizontalAlignment="Left" Height="46" Margin="59,287,0,0" Stroke="Black" VerticalAlignment="Top" Width="46"/>
+        <Rectangle x:Name="Color1" HorizontalAlignment="Left" Height="46" Margin="10,287,0,0" Stroke="Black" VerticalAlignment="Top" Width="46"/>
+        <Button x:Name="SaveButton" Content="Save" HorizontalAlignment="Left" Margin="115,10,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="EllipseButton" Content="Ellipse" HorizontalAlignment="Left" Margin="115,85,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="RectangleButton" Content="Rectangle" HorizontalAlignment="Left" Margin="115,60,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="UndoButton" Content="Undo" HorizontalAlignment="Left" Margin="115,35,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="ClearButton" Content="Clear" HorizontalAlignment="Left" Margin="149,10,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="ShapeLabel" Content="Rectangle" HorizontalAlignment="Left" Margin="129,120,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>

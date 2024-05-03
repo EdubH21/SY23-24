@@ -33,13 +33,13 @@ Class MainWindow
     Private Sub ColorRectangle2_MouseLeftButtonDown(sender As Object, e As MouseButtonEventArgs) Handles ColorRectangle2.MouseLeftButtonDown, ColorRectangle3.MouseLeftButtonDown, ColorRectangle4.MouseLeftButtonDown, ColorRectangle5.MouseLeftButtonDown
         ColorRectangle1.Fill = sender.fill
     End Sub
-    Private Sub Button_Click(sender As Object, e As RoutedEventArgs)
+    Private Sub ClearButton_Click(sender As Object, e As RoutedEventArgs) Handles ClearButton.Click
         DrawingCanvas.Children.RemoveRange(1, DrawingCanvas.Children.Count)
     End Sub
-    Private Sub Button_Click_1(sender As Object, e As RoutedEventArgs)
+    Private Sub UndoButton_Click_1(sender As Object, e As RoutedEventArgs) Handles UndoButton.Click
         DrawingCanvas.Children.RemoveAt(DrawingCanvas.Children.Count - 1)
     End Sub
-    Private Sub Button_Click_2(sender As Object, e As RoutedEventArgs)
+    Private Sub RectangleButton_Click_2(sender As Object, e As RoutedEventArgs) Handles RectangleButton.Click
         ShapeLabel.Content = sender.content
     End Sub
     Private Sub EllipseButton_Click(sender As Object, e As RoutedEventArgs) Handles EllipseButton.Click
